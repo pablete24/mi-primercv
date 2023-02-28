@@ -1,0 +1,154 @@
+/*
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 10px;
+    background: rgb(13, 13, 13);
+  }
+  
+   Header/Blog Title 
+  .nombre {
+    padding: 10px;
+    text-align: center;
+    background: red;
+  }
+  
+  .nombre h1 {
+    font-size: 90px;
+  }
+  
+  /* Style the top navigation bar 
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(252, 250, 250);
+  }
+  
+  /* Style the topnav links 
+  .topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    
+  }
+  
+  /* Change color on hover 
+  .topnav a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column 
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+   
+    
+  }
+  
+  /* Right column 
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: red;
+    padding-left: 20px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+ 
+  
+ 
+  .card {
+    background-color: red;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  
+/* Footer 
+.footer {
+    padding: 20px ;
+    text-align: center;
+    background: rgb(253, 253, 253);
+    margin-top: 20px;
+  }
+ 
+  */
+  
+  
+  
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial;
+  padding: 5px;
+  background: blue;
+}
+
+/* Header/Blog Title */
+.nombre {
+  padding: 30px;
+  text-align: center;
+  background: rgb(108, 107, 107);
+}
+.nombre{
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: red;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: red;
+  padding-left: 20px;
+}
+
+
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
